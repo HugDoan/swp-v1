@@ -26,7 +26,7 @@ export default function App() {
           <CardDeal />
           <Testimonials />
 
-          
+          <CTA />
           <Footer />
         </div>
       </div>
