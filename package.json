@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "bank-app": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
