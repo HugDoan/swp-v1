@@ -5,14 +5,14 @@ import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testi
 
 export default function App() {
   return (
-        <div className=" w-full overflow-hidden">
-          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
-              <Navbar />
-            </div>
-          </div>
+    <div className=" w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
 
-          <div className={` ${styles.flexStart}`}>
+      <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -25,7 +25,6 @@ export default function App() {
           <Billing />
           <CardDeal />
           <Testimonials />
-
           <CTA />
           <Footer />
         </div>
