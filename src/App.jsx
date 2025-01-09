@@ -20,7 +20,8 @@ export default function App() {
 
       <div className={` ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          
+          <Billing />
+          <Business />
           <Footer />
         </div>
       </div>
